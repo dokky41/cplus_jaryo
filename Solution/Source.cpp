@@ -3,7 +3,7 @@
 
 using namespace std; // std:: 생략가능
 
-int value = 0;
+int value = 50;
 
 int main()
 {
