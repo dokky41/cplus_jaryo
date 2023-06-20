@@ -1,126 +1,38 @@
 #include "iostream"
-#include "iPhone.h"
+#include "Computer.h"
 
 using namespace std; // std:: 생략가능
 
-#pragma region 상속
-	// 상위 클래스의 속성을 하위 클래스가 
-	// 사용할 수 있도록 설정해주는 기능입니다.
-
-class Parent
-{
-public : 
-	Parent()
-	{
-		cout << "Parent() 클래스 생성" << endl;
-	}
-
-	~Parent()
-	{
-		cout << "Parent() 클래스 소멸" << endl;
-	}
-
-	void Speak(int a)
-	{
-		// this 포인터
-		// 자기 자신을 가리키는 포인터입니다.
-		this->a = a;
-
-		//this 포인터는 호출된 객체를 가리키는 상수 포인터입니다.
-
-		// 상수 포인터 자료형이므로 포인터 자체가 다른 것을 가리키도록 
-		// 할 수 없습니다.
-		cout << this << endl;
-		cout << "Speak()" << endl;
-	}
-
-	int a;
-protected:
-	int b;
-private:
-	int c;
-
-};
-
-class Child: public Parent
-{
-public :
-	Child()
-	{
-		// public 상속
-		/*a = 100; (o)
-		b = 200; (o)
-		c = 300; (x)*/
-
-		// protected 상속
-		/*a = 100; (o)
-		b = 200; (o)
-		c = 300; (x)*/
-
-		// private 상속
-		/*a = 100; (o)
-		b = 200; (o)
-		c = 300; (x)*/
-
-		cout << "Child() 클래스 생성" << endl;
-	}
-
-	~Child()
-	{
-		cout << "Child() 클래스 소멸" << endl;
-	}
-
-	int d;
-
-
-};
-
-#pragma endregion
+int value = 0;
 
 int main()
 {
-#pragma region 상속
+
+#pragma region 다중 상속
+	// 하나의 하위 클래스가 여러 개의 상위 클래스를
+	// 상속받는 것입니다.
+
+	//Computer computer;
+	//
+	//// 다중 상속은 여러 개의 상위 클래스에 중복되는
+	//// 속성이 존재할 수 있기 때문에 범위 지정 연산자를
+	//// 통해서 상위 클래스의 이름을 선언하고 속성을 사용해야 합니다.
+	//
+	//computer.Keyboard::price = 10000; //모호성
+	//
+	//computer.OnDrag();
+	//computer.Input('A');
 
 
-	//Child child;
 
-	// public 상속 시
-	// child.a = 999;
-	
-	// protected 상속 시 접근할 수 있는 멤버 변수가 존재하지 않습니다.
-	
-	// private 상속 시 접근할 수 있는 멤버 변수가 존재하지 않습니다.
-	
+
 
 #pragma endregion
 
-#pragma region this 포인터
+// 다이아몬드
+	
+// 가상상속
 
-	//Parent parent1;
-	//parent1.Speak(10);
-	//
-	//Parent parent2;
-	//parent2.Speak(20);
-	//
-	//Parent parent3;
-	//parent3.Speak(30);
-
-#pragma endregion
-
-#pragma region 클래스의 메모리 크기
-
-	//Parent p1; // int a, b, c
-	//Child c1; // int d
-	//
-	//cout << "Parent 사이즈의 크기 : " << sizeof(p1) << endl; //12byte
-	//cout << "Child 사이즈의 크기 : " << sizeof(c1) << endl; //16byte
-
-#pragma endregion
-
-	iPhone iPhone14;
-
-	iPhone14.SetSoundControl(50);
-	cout << iPhone14.GetVolume() << endl;
 
 
 

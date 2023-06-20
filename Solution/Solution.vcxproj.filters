@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Class Headers">
+      <UniqueIdentifier>{1378dda6-e74f-41ce-83eb-60f4e29661d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Cpp">
+      <UniqueIdentifier>{51f159c9-f0b8-449b-9527-daa36a0a7913}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="(2023.6.12)입출력.h">
@@ -24,20 +30,35 @@
     <ClInclude Include="(2023.6.14)클래스.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Weapon.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="(2023.6.15)생성자와소멸자.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="DataFile.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="%282023.6.16%29깊은복사와얕은복사.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="iPhone.h">
+    <ClInclude Include="(2023.6.19)상속.h">
       <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Computer.h">
+      <Filter>Class Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFile.h">
+      <Filter>Class Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>Class Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Class Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="iPhone.h">
+      <Filter>Class Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Class Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Class Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -45,10 +66,22 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Weapon.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>Class Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Class Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Class Cpp</Filter>
     </ClCompile>
     <ClCompile Include="iPhone.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>Class Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>Class Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Computer.cpp">
+      <Filter>Class Cpp</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
