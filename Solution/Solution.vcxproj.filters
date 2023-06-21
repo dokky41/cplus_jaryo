@@ -60,6 +60,12 @@
     <ClInclude Include="Weapon.h">
       <Filter>Class Headers</Filter>
     </ClInclude>
+    <ClInclude Include="%282023.6.20%29다중상속.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Class Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -81,6 +87,9 @@
       <Filter>Class Cpp</Filter>
     </ClCompile>
     <ClCompile Include="Computer.cpp">
+      <Filter>Class Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
       <Filter>Class Cpp</Filter>
     </ClCompile>
   </ItemGroup>

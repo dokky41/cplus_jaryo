@@ -133,12 +133,14 @@
     <ClInclude Include="(2023.6.15)생성자와소멸자.h" />
     <ClInclude Include="%282023.6.16%29깊은복사와얕은복사.h" />
     <ClInclude Include="(2023.6.19)상속.h" />
+    <ClInclude Include="%282023.6.20%29다중상속.h" />
     <ClInclude Include="Computer.h" />
     <ClInclude Include="DataFile.h" />
     <ClInclude Include="Device.h" />
     <ClInclude Include="iPhone.h" />
     <ClInclude Include="Keyboard.h" />
     <ClInclude Include="Mouse.h" />
+    <ClInclude Include="Vector3.h" />
     <ClInclude Include="Weapon.h" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +150,7 @@
     <ClCompile Include="Keyboard.cpp" />
     <ClCompile Include="Mouse.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Vector3.cpp" />
     <ClCompile Include="Weapon.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
