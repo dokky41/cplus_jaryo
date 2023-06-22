@@ -66,6 +66,12 @@
     <ClInclude Include="Vector3.h">
       <Filter>Class Headers</Filter>
     </ClInclude>
+    <ClInclude Include="(2023.6.21)오버로딩.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>Class Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -90,6 +96,9 @@
       <Filter>Class Cpp</Filter>
     </ClCompile>
     <ClCompile Include="Vector3.cpp">
+      <Filter>Class Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
       <Filter>Class Cpp</Filter>
     </ClCompile>
   </ItemGroup>
