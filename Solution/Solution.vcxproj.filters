@@ -72,6 +72,15 @@
     <ClInclude Include="Sword.h">
       <Filter>Class Headers</Filter>
     </ClInclude>
+    <ClInclude Include="%282023.6.22%29가상함수.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Class Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Marine.h">
+      <Filter>Class Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -99,6 +108,12 @@
       <Filter>Class Cpp</Filter>
     </ClCompile>
     <ClCompile Include="Sword.cpp">
+      <Filter>Class Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Class Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Marine.cpp">
       <Filter>Class Cpp</Filter>
     </ClCompile>
   </ItemGroup>
