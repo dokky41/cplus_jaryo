@@ -3,8 +3,16 @@
 
 class Marine : public Unit
 {
-public: 
-	void Skill() override; 
+private :
+	int hp;
+
+
+public : 
+	Marine();
+
+	int GetHP() override;
+	void SetHP(int hp) override;
+	void Skill() override;
 
 };
 

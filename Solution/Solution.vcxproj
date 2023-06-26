@@ -136,9 +136,11 @@
     <ClInclude Include="%282023.6.20%29다중상속.h" />
     <ClInclude Include="(2023.6.21)오버로딩.h" />
     <ClInclude Include="%282023.6.22%29가상함수.h" />
+    <ClInclude Include="(2023.6.23)순수가상함수.h" />
     <ClInclude Include="Computer.h" />
     <ClInclude Include="DataFile.h" />
     <ClInclude Include="Device.h" />
+    <ClInclude Include="Ghost.h" />
     <ClInclude Include="iPhone.h" />
     <ClInclude Include="Keyboard.h" />
     <ClInclude Include="Marine.h" />
@@ -151,6 +153,7 @@
   <ItemGroup>
     <ClCompile Include="Computer.cpp" />
     <ClCompile Include="Device.cpp" />
+    <ClCompile Include="Ghost.cpp" />
     <ClCompile Include="iPhone.cpp" />
     <ClCompile Include="Keyboard.cpp" />
     <ClCompile Include="Marine.cpp" />

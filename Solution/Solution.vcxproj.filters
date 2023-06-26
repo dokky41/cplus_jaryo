@@ -19,6 +19,12 @@
     <Filter Include="Class Cpp">
       <UniqueIdentifier>{51f159c9-f0b8-449b-9527-daa36a0a7913}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Class Test">
+      <UniqueIdentifier>{eb1e9254-0c16-48ae-909c-0d1af12d7d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Test">
+      <UniqueIdentifier>{c4bc06ff-c39c-4b0b-8b8e-7c0aa7a587f2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="(2023.6.12)입출력.h">
@@ -81,6 +87,12 @@
     <ClInclude Include="Marine.h">
       <Filter>Class Headers</Filter>
     </ClInclude>
+    <ClInclude Include="(2023.6.23)순수가상함수.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>Class Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -114,6 +126,9 @@
       <Filter>Class Cpp</Filter>
     </ClCompile>
     <ClCompile Include="Marine.cpp">
+      <Filter>Class Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
       <Filter>Class Cpp</Filter>
     </ClCompile>
   </ItemGroup>
