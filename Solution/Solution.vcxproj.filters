@@ -93,6 +93,9 @@
     <ClInclude Include="Ghost.h">
       <Filter>Class Headers</Filter>
     </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Class Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -131,5 +134,13 @@
     <ClCompile Include="Ghost.cpp">
       <Filter>Class Cpp</Filter>
     </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Class Cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="%282023.6.26%29업캐스팅.h">
+      <Filter>헤더 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>
