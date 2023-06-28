@@ -96,6 +96,9 @@
     <ClInclude Include="Item.h">
       <Filter>Class Headers</Filter>
     </ClInclude>
+    <ClInclude Include="%282023.6.27%29 스마트포인터.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">

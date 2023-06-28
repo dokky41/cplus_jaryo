@@ -137,6 +137,7 @@
     <ClInclude Include="(2023.6.21)오버로딩.h" />
     <ClInclude Include="%282023.6.22%29가상함수.h" />
     <ClInclude Include="(2023.6.23)순수가상함수.h" />
+    <ClInclude Include="%282023.6.27%29 스마트포인터.h" />
     <ClInclude Include="Computer.h" />
     <ClInclude Include="DataFile.h" />
     <ClInclude Include="Device.h" />
