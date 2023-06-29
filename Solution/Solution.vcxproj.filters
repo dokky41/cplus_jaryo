@@ -99,6 +99,21 @@
     <ClInclude Include="%282023.6.27%29 스마트포인터.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="(2023.6.28)템플릿.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Animal.h">
+      <Filter>Class Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CarniVore.h">
+      <Filter>Class Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tiger.h">
+      <Filter>Class Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Lion.h">
+      <Filter>Class Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -138,6 +153,18 @@
       <Filter>Class Cpp</Filter>
     </ClCompile>
     <ClCompile Include="Item.cpp">
+      <Filter>Class Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Animal.cpp">
+      <Filter>Class Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CarniVore.cpp">
+      <Filter>Class Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Tiger.cpp">
+      <Filter>Class Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Lion.cpp">
       <Filter>Class Cpp</Filter>
     </ClCompile>
   </ItemGroup>

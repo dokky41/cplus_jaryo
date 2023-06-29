@@ -7,7 +7,7 @@ using namespace std; // std:: 생략가능
 // 클래스의 인스턴스가 생성되는 시점에서
 // 자동으로 호출되는 특수한 멤버 함수입니다.
 
-class Animal
+class Person
 {
 	// 생성자(자기자신의 이름)
 	// 생성자의 경우 객체가 생성될 때 단 한 번만 호출되며, 
@@ -19,10 +19,10 @@ class Animal
 
 public:
 	// default : 기본 생성자로 명시적으로 지정하는 키워드
-	Animal() = default;
+	Person() = default;
 
 
-	Animal(int x)
+	Person(int x)
 	{
 		age = x;
 		cout << "생성자 호출" << endl;
@@ -30,7 +30,7 @@ public:
 
 	// 복사 생성자
 	// 같은 객체를 복사하여 생성시킬 때 호출되는 생성자입니다.
-	Animal(Animal& clone)
+	Person(Person& clone)
 	{
 		cout << "복사 생성자 호출" << endl;
 	}
@@ -38,13 +38,13 @@ public:
 
 	// 소멸자
 	// 객체가 소멸될 때 자동으로 실행되는 클래스의 멤버 함수입니다.
-	~Animal() //return 0 를 만나 해제됨
+	~Person() //return 0 를 만나 해제됨
 	{
 		// 소멸자는 객체가 메모리에서 해제될 때
 		// 단 한번만 호출되며, 소멸자에는 매개변수를
 		// 생성하여 사용할 수 없습니다.
 
-		cout << "Animal 삭제" << endl;
+		cout << "Person 삭제" << endl;
 	}
 
 };
@@ -77,12 +77,12 @@ int main()
 
 #pragma region 생성자 & 소멸자
 
-	Animal animal1;
-	Animal animal2 = animal1;
+	Person animal1;
+	Person animal2 = animal1;
 	Weapon weapon;
 
 	weapon.Stat();
-	Animal* aPtr = new Animal(10);
+	Person* aPtr = new Person(10);
 	delete(aPtr);
 
 	int a = 10;
