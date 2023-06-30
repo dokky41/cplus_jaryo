@@ -114,6 +114,12 @@
     <ClInclude Include="Lion.h">
       <Filter>Class Headers</Filter>
     </ClInclude>
+    <ClInclude Include="(2023.6.29) 예외처리.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="%282023.6.30%29다운캐스팅.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">

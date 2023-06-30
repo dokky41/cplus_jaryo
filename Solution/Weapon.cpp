@@ -2,10 +2,7 @@
 
 // 함수의 구체적인 내용을 작성
 
-Weapon::Weapon()
-{
-	std::cout << "Weapon() 생성" << std::endl;
-}
+
 
 Weapon::~Weapon()
 {
@@ -14,7 +11,7 @@ Weapon::~Weapon()
 
 void Weapon::Stat()
 {
-	std::cout << "무기 공격력 : " << attack << std::endl;
+	std::cout << "무기 공격력 : " << m_attack << std::endl;
 }
 
 void Weapon::Attack()

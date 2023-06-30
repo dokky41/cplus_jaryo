@@ -139,6 +139,8 @@
     <ClInclude Include="(2023.6.23)순수가상함수.h" />
     <ClInclude Include="%282023.6.27%29 스마트포인터.h" />
     <ClInclude Include="(2023.6.28)템플릿.h" />
+    <ClInclude Include="(2023.6.29) 예외처리.h" />
+    <ClInclude Include="%282023.6.30%29다운캐스팅.h" />
     <ClInclude Include="Animal.h" />
     <ClInclude Include="CarniVore.h" />
     <ClInclude Include="Computer.h" />

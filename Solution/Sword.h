@@ -5,7 +5,7 @@
 class Sword : public Weapon
 {
 public:
-	Sword();
+	Sword() : Weapon(10, 6.75f,1500) {};
 	~Sword();
 
 
