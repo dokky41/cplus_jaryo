@@ -143,6 +143,8 @@
     <ClInclude Include="%282023.6.30%29다운캐스팅.h" />
     <ClInclude Include="%282023.7.3%29선형컨테이너,답.h" />
     <ClInclude Include="%282023.7.4%29문자열클래스.h" />
+    <ClInclude Include="(2023.7.5)컨테이너 어댑터.h" />
+    <ClInclude Include="(2023.7.6)연관컨테이너.h" />
     <ClInclude Include="Animal.h" />
     <ClInclude Include="CarniVore.h" />
     <ClInclude Include="Computer.h" />
